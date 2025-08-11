@@ -20,27 +20,12 @@ public enum Chain {
     UNSPECIFIED(0, "UNSPECIFIED", "Unknown"),
 
     BITCOIN(1, "BTC", "Bitcoin"),
-    // GRIN(2, "GRIN", "Grin"),
-
-    // Networks with tokens
-    ETHEREUM(100, "ETH", "Ethereum"),
-    ETHEREUM_CLASSIC(101, "ETC", "Ethereum Classic"),
-    FANTOM(102, "FTM", "Fantom"),
-
-    //LIGHTNING(1001, "BTC_LN", "Bitcoin Lightning"),
-    MATIC(1002, "MATIC", "Polygon Matic"),
-    RSK(1003, "RSK", "Bitcoin RSK"),
-
-    // Testnets
-    TESTNET_MORDEN(10001, "MORDEN", "Morden Testnet"),
-    TESTNET_KOVAN(10002, "KOVAN", "Kovan Testnet"),
-    TESTNET_BITCOIN(10003, "TESTNET_BITCOIN", "Bitcoin Testnet"),
-    // TESTNET_FLOONET(10004, "FLOONET", "Floonet Testnet"),
-    TESTNET_GOERLI(10005, "GOERLI", "Goerli Testnet"),
-    TESTNET_ROPSTEN(10006, "ROPSTEN", "Ropsten Testnet"),
-    TESTNET_RINKEBY(10007, "RINKEBY", "Rinkeby Testnet"),
-    TESTNET_HOLESKY(10008, "HOLESKY", "Holesky Testnet"),
-    TESTNET_SEPOLIA(10009, "SEPOLIA", "Sepolia Testnet");
+    ETHEREUM(2, "ETH", "Ethereum"),
+    SEPOLIA(3, "SEP", "Sepolia"),
+    POLYGON(4, "POL", "Polygon"),
+    AMOY(5, "AMOY", "Amoy"),
+    KATANA(6, "KAT", "Katana"),
+    BOKUTO(7, "BOK", "Bokuto");
 
     private final int id;
     private final String code;
